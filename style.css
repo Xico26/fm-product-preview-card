@@ -42,6 +42,7 @@ main {
     display: grid;
     grid-template-columns: 1fr 1fr;
     border-radius: 1rem;
+    overflow: hidden;
 }
 
 /* picture {
@@ -140,7 +141,6 @@ main {
         height: 95vh;
         grid-template-rows: 1fr 2fr;
         grid-template-columns: unset;
-        overflow: hidden;
     }
     .content {
         padding: 1.5rem;
