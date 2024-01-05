@@ -110,6 +110,11 @@ main {
     border: none;
     border-radius: 0.5rem;
     font-weight: 700;
+    cursor: pointer;
+}
+
+.cart-btn:hover {
+    background-color: #243F32;
 }
 
 .btn-div {
